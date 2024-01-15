@@ -23,6 +23,10 @@ body {
   background-color: black;
 }
 
+.navhead{
+  display: flex;
+}
+
 article,
 aside,
 details,
