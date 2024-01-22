@@ -8,6 +8,21 @@ body {
   margin: 0;
 }
 
+.red-wallet-head{
+  font-size: 25px;
+  font-weight: 700; 
+  font-family: Raleway, sans-serif;
+}
+
+
+@media screen and (max-width: 767px) {
+  .red-wallet-head {
+    margin-left: 2px;
+    font-size: 12px;
+  }
+}
+
+
 .register-btn{
   color: red;
   background-color: #252b2f;
@@ -2077,8 +2092,8 @@ textarea.w-select {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 18px;
-  font-size: 24px;
+  padding: 5px;
+  font-size: 12px;
   display: none;
   position: relative;
 }
@@ -2112,7 +2127,7 @@ textarea.w-select {
   }
 
   .w-nav[data-collapse="medium"] .w-nav-button {
-    display: block;
+    display: flex;
   }
 }
 
@@ -2493,8 +2508,7 @@ figcaption {
   background-color: #050507;
   border: 1px solid #1b1e28;
   border-radius: 8px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  width: 95px;
   font-weight: 600;
 }
 
@@ -2605,6 +2619,12 @@ figcaption {
 
 .brand-image {
   width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .brand-image {
+    width: 40px;
+    height: 35px;
+  }
 }
 
 .nav-menu {
@@ -4232,6 +4252,12 @@ figcaption {
 
   .button.video {
     background-position: 36%;
+  }
+
+  @media screen and (max-width: 767px) {
+    .button.video {
+      background-position: 30%;
+    }
   }
 
   .button.white {
